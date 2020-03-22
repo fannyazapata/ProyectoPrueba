@@ -70,7 +70,7 @@ public class CrearUsuarioSteps {
 	
 	@And("Digito los campos obligatorios para crear usuario")
 	public void digito_los_campos_obligatorios_para_crear_usuario() {
-		driver.findElement(userLocator).sendKeys("faz4");
+		driver.findElement(userLocator).sendKeys("faz6");
 		driver.findElement(emailLocator).sendKeys("Faz@hotmail.com");
 		driver.findElement(passLocator).sendKeys("Faz123");
 		driver.findElement(confirmLocator).sendKeys("Faz123");
